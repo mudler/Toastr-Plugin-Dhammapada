@@ -31,4 +31,4 @@ it under the same terms as Perl itself.
 
 # SEE ALSO
 
-	[Toastr](https://github.com/jberger/Toastr)
+* [Toastr](https://github.com/jberger/Toastr)

@@ -36,7 +36,7 @@ sub register {
 
 sub dhammapada_verset {
     my ( $self, $irc, $chan ) = @_;
-    my $verse = $irc->dhammapada->versets->shuffle->[0];
+    my $verse = $irc->plugins->{"Dhammapada"}->versets->shuffle->[0];
     $verse =~ tr{\n}{ };
     $irc->msg( $chan => $verse );
 }
